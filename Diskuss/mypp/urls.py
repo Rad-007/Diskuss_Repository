@@ -5,7 +5,7 @@ from . import views
 from django.conf import settings #add this
 from django.conf.urls.static import static #add this
 #from inqu.views import CreateCheckoutSessionView
-from django.conf.urls import url
+from django.urls import re_path as url
 
 from django.views.static import serve
 
